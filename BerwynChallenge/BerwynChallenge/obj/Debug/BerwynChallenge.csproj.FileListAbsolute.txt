@@ -1,0 +1,7 @@
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\bin\Debug\BerwynChallenge.exe.config
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\bin\Debug\BerwynChallenge.exe
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\bin\Debug\BerwynChallenge.pdb
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\obj\Debug\BerwynChallenge.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\obj\Debug\BerwynChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\obj\Debug\BerwynChallenge.exe
+C:\Users\Jacob\source\repos\BerwynChallenge\BerwynChallenge\obj\Debug\BerwynChallenge.pdb

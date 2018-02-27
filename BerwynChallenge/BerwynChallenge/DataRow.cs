@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Jacob Anderson, 27 Feb 2018
+
 namespace BerwynChallenge
 {
     class DataRow
