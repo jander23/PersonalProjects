@@ -74,7 +74,7 @@ namespace BerwynChallenge
                     output3 = "Y";
                 }
                 string output4 = "N";
-                if (data[i].GetVal3().Length > avLength)
+                if (data[i].GetVal3().Length > avLength + 2)
                 {
                     output4 = "Y";
                 }
@@ -162,10 +162,14 @@ namespace BerwynChallenge
             int i = 0;
             while(i < data.Length && data[i] != null)
             {
-                totalLength = totalLength + data[i].GetVal3().Length;
+                totalLength = totalLength + data[i].GetVal3().Length - 2;
+                //Console.WriteLine(data[i].GetVal3());
+                //Console.ReadLine();
                 i++;
             }
             // Typecasting integers to doubles for division
+            //Console.WriteLine(totalLength);
+            //Console.WriteLine(records);
             double avLength = (double)totalLength / (double)records;
             return avLength;
         }
