@@ -74,7 +74,7 @@ namespace BerwynChallenge
                     output3 = "Y";
                 }
                 string output4 = "N";
-                if (data[i].GetVal3().Length > avLength + 2)
+                if (data[i].GetVal3().Trim('"').Length > avLength)
                 {
                     output4 = "Y";
                 }
@@ -162,7 +162,7 @@ namespace BerwynChallenge
             int i = 0;
             while(i < data.Length && data[i] != null)
             {
-                totalLength = totalLength + data[i].GetVal3().Length - 2;
+                totalLength = totalLength + data[i].GetVal3().Trim('"').Length;
                 //Console.WriteLine(data[i].GetVal3());
                 //Console.ReadLine();
                 i++;
