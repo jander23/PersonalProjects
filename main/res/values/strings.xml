@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpokezDemo</string>
+    <string name="title_activity_adventure_mode">AdventureMode</string>
+</resources>
